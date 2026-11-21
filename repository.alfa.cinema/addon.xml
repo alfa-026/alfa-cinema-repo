@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.alfa.cinema" name="ALFA CINEMA Repository" version="1.0.0" provider-name="ALFA CINEMA">
+  <extension point="xbmc.addon.repository" name="ALFA CINEMA Repository">
+    <dir>
+      <info>https://alfa-026.github.io/alfa-cinema-repo/addons.xml</info>
+      <checksum>https://alfa-026.github.io/alfa-cinema-repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://alfa-026.github.io/alfa-cinema-repo/</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es_ES">Repositorio oficial de ALFA CINEMA</summary>
+    <description lang="es_ES">Repositorio de distribución de ALFA CINEMA alojado en GitHub Pages.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
